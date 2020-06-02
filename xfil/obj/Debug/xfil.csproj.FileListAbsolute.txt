@@ -1,0 +1,9 @@
+/Users/tr3mb0/Projects/xfil/xfil/bin/Debug/xfil.exe
+/Users/tr3mb0/Projects/xfil/xfil/bin/Debug/xfil.pdb
+/Users/tr3mb0/Projects/xfil/xfil/bin/Debug/Ionic.Zip.dll
+/Users/tr3mb0/Projects/xfil/xfil/bin/Debug/System.dll
+/Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.csproj.CoreCompileInputs.cache
+/Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.csproj.CopyComplete
+/Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.exe
+/Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.pdb
+/Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.csprojAssemblyReference.cache
