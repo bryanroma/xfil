@@ -38,6 +38,7 @@ cat responder_out.txt | awk -F" " '{print $10}' | awk -F"." '{print $2}' | tr -d
 ```
 
 ### TO-DO
+* Replace base64+hex  with someething more efficient (base32)
 * Add DNS exfil **[ DONE ]**
 * Add HTTP exfil **[ DONE ]**
 * Add base64 encoding **[ DONE ]**
