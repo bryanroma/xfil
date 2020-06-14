@@ -31,7 +31,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Ionic.Zip">
-      <HintPath>..\..\..\Desktop\Ionic.Zip.dll</HintPath>
+      <HintPath>Ionic.Zip.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="xtras\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xtras\Ionic.Zip.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{22D633C7-A652-461E-A425-A473B5BD7D3A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xfil/dns_exfil.cs">
+    <Files>
+      <File FileName="xfil/Program.cs" Line="35" Column="18" />
+      <File FileName="xfil/info.cs" Line="22" Column="68" />
+      <File FileName="xfil/dns_exfil.cs" Line="21" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xfil" expanded="True">
+            <Node name="xfil" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="xtras" expanded="True" />
+              <Node name="dns_exfil.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.xfil PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

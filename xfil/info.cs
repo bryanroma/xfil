@@ -19,7 +19,7 @@ namespace xfil
             Console.WriteLine("    888    o.  )88b 888   888 888   .o8  888  888    .o   888 .    `888'");
             Console.WriteLine("   o888o   8``888P' `Y8bod8P' `Y8bod8P' o888o `Y8bod8P'   `888`      d8'");
             Console.WriteLine("                                                                .o...P'");
-            Console.WriteLine("                         xfil @ v0.1                            @tr3mb0");
+            Console.WriteLine("                         xfil @ v0.2                            @tr3mb0");
 
         }
 

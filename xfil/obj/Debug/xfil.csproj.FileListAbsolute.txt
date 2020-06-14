@@ -6,4 +6,3 @@
 /Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.csproj.CopyComplete
 /Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.exe
 /Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.pdb
-/Users/tr3mb0/Projects/xfil/xfil/obj/Debug/xfil.csprojAssemblyReference.cache

